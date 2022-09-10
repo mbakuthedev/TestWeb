@@ -1,0 +1,8 @@
+button {
+    
+    justify-content: space-around;
+  }
+  mat-toolbar-row{
+    background-image: url('src\assets\archi.jpg');
+    height: 200px;
+  }

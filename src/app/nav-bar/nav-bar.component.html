@@ -1,0 +1,27 @@
+<mat-toolbar>
+  
+    <mat-drawer-container>
+     
+    <mat-drawer #drawer mode="side">
+      <p> <button mat-raised-button>Dashboard</button> </p>
+      <p> <button mat-raised-button>Settings</button> </p>
+      <p> <button mat-raised-button>Privacy</button> </p>
+    </mat-drawer>
+    <button (click)="drawer.toggle()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-drawer-container>
+
+  <span><button mat-button>MbakuFromFAD</button></span>
+  <span class="example-spacer"></span>
+  <button mat-flat-button>
+    Services
+  </button>
+  <button mat-flat-button>
+    About
+  </button>
+</mat-toolbar>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span><img src="src\assets\archi.jpg" alt=""></span>
+  </mat-toolbar-row>
